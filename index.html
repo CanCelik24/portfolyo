@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- dependences -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="img/letter-c.png" />
+
+
+    <!-- title -->
+
+    <title>Can ÇELİK</title>
+
+</head>
+<body onload="typeWriter()"></body>
+
+<div>
+
+  <!-- loader -->
+  <div class="loader">
+  </div>
+
+
+
+  <div class="myPage">
+    
+  
+      <!-- navbar -->
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Oğulcan ÇELİK</a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                Sertifikalarım
+              </a>
+            </li>
+              
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menü
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#about">Hakkımda</a></li>
+                <li><a class="dropdown-item" href="#projects">Projelerim</a></li>
+                <li><a class="dropdown-item" href="#education">Eğitim & Tecrübelerim</a></li>
+                <li><a class="dropdown-item" href="#contact">İletişim</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  
+      <!-- hakkımda -->
+      <div id="welcome">Portfolyoma hoş geldiniz.</div>
+      
+      <div class="effect" id="about">
+        <h3 id="chapters" class="mt-4">Hakkımda</h3>
+      </div>
+  
+      <div class="card m-4 mt-2">
+        <div class="card-body" >
+          <p class="card-text" id="hakkımda" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+        <div class="card-footer text-muted text-center" style="font-size: small;">
+          Son güncelleme: 20.01.2023
+        </div>
+      </div>
+  
+      <!-- projects -->
+  
+  
+  
+      <div class="effect" id="projects">
+        <h3 id="chapters">Projelerim</h3>
+      </div>
+  
+      <div class="card m-4">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img class="img-thumbnail imgfeat zoom" src="img/ehlikeyf.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Ehl-i Keyf Közde Kahve</h5>
+              <p class="card-text"> QR menü tasarımının yapılması.</p>
+              <p class="card-text"><small class="text-muted">Kullanılan Teknolojiler: HTML, CSS, JavaScript, JQuery, QR, Bootstrap</small></p>
+              <div>
+                <button class="btn btn-dark"><a href="https://github.com/CanCelik24/ehlikeyf" target="_blank">GitHub</a></button>
+                <button class="btn btn-dark"><a href="https://ehlikeyf.netlify.app/" target="_blank">Netlify</a></button>
+                <button class="btn btn-dark"><a href="https://cafeehlikeyf.business.site/" target="_blank">Firma</a></button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="card m-4">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img class="img-thumbnail imgfeat zoom" src="img/roomarmor.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Mimarlık Sitesi</h5>
+              <p class="card-text">Yeni kurulan mimarlık ve bina güçlendirme firmasının web sitesinin tasarlanması</p>
+              <p class="card-text"><small class="text-muted">Kullanılan Teknolojiler: HTML, CSS, JavaScript, Bootstrap</small></p>
+              <div>
+                <button class="btn btn-dark"><a href="https://github.com/CanCelik24/roomarmor" target="_blank">GitHub</a></button>
+                <button class="btn btn-dark"><a href="https://roomarmor.netlify.app/" target="_blank">Netlify</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card m-4">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Family Group</h5>
+              <p class="card-text">Web sitesinin tasarlanması. <small class="text-muted">Proje deploy edildiğinde görseliyle paylaşılacaktır.</small></p>
+              <p class="card-text"><small class="text-muted">Kullanılan Teknolojiler: HTML, CSS, JavaScript, Bootstrap</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="effect mt-5">
+        <h3 id="chapters">Tutorial Görselleri</h3>
+      </div>
+
+      <div class="m-4">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/weather-app.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Weather App</h5>
+                <p>React ve OpenWeather API ile oluşturulmuştur</p>
+                <p><small>Diğer projeler için GitHub hesabımı ziyaret edebilirsiniz.</small></p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/npmjs-gorsel.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Celik-UI</h5>
+                <p>npmjs için React ile oluşturulmuş "button component"</p>
+                <p><small>Diğer projeler için GitHub hesabımı ziyaret edebilirsiniz.</small></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/todosApp.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Todo App</h5>
+                <p>Local Storage ile verilerin tutulduğu React ile oluşturulmuş web uygulaması</p>
+                <p><small>Diğer projeler için GitHub hesabımı ziyaret edebilirsiniz.</small></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+  
+  
+      
+  
+      
+  
+      
+      <!-- edu projects -->
+  
+  
+      <div class="effect mt-4">
+        <h3 id="chapters">Eğitimlerdeki Projelerim</h3>
+      </div>
+      
+      
+      <div class="accordion m-4" id="accordionExample" >
+        <div class="accordion-item" >
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              React Weather App
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong> OpenWeather API ile Türkiye'nin tüm illerinin hava raporunu görüntülemek.</strong> 
+              <br><br>
+              <h5>İçerik </h5>
+              <p>Grid yapısı kullanılarak responsive sitenin oluşturulması, API ile verilerin çekilmesi ve tüm frontend kısmının tamamlanması</p>
+              <h5>Kullanılan teknolojiler</h5>
+              <p>HTML, CSS, Bootstrap, JavaScript, ReactJS, OpenWeather API</p>
+              <p><i>Deploy edilmiş projeyi görmek veya kodları incelemek için tıklayın.</i></p>
+              <div>
+                <button class="btn btn-dark"><a href="https://github.com/CanCelik24/react-weather-app" target="_blank">GitHub</a></button>
+                <button class="btn btn-dark"><a href="https://weather-cancelik.netlify.app/" target="_blank">Netlify</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              React Todo App
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Local Storage ile verilerin tutulduğu yapılacaklar listsesi ReactJS projesi.</strong> 
+              <br><br>
+              <h5>Kullanılan teknolojiler</h5>
+              <p>HTML, CSS, JavaScript, ReactJS</p>
+              <p><i>Deploy edilmiş projeyi görmek veya kodları incelemek için tıklayın.</i></p>
+              <div>
+                <button class="btn btn-dark"><a href="https://github.com/CanCelik24/todo-app" target="_blank">GitHub</a></button>
+                <button class="btn btn-dark"><a href="https://todo-app-cancelik.netlify.app/" target="_blank">Netlify</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" >
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Celik-UI NPM
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Celik-UI NPM</strong> 
+              <br><br>
+              <h5>İçerik</h5>
+              <p>React projelerinde kullanmak üzere Button Componenti geliştirilmesi ve NPM'de paylaşmak.</p>
+              <h5>Kullanılan teknolojiler</h5>
+              <p>HTML, CSS, Bootstrap, JavaScript, React.js</p>
+              <div>
+                <button class="btn btn-dark"><a href="https://github.com/CanCelik24/celik-ui" target="_blank">GitHub</a></button>
+                <button class="btn btn-dark"><a href="https://www.npmjs.com/package/ogulcan-ui" target="_blank">NPM</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+          <!-- edu & exp projects -->
+  
+  
+      <div class="effect" id="education">
+        <h3 id="chapters">Eğitim & İş</h3>
+      </div>
+  
+      <div class="table-responsive">
+        <figure class="m-4">    
+          <figcaption class="text-center m-2">Eğitim Hayatım</figcaption>
+  
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Okul</th>
+                <th scope="col">Bölüm</th>
+                <th scope="col">Fakülte</th>
+                <th scope="col">Mezuniyet Tarihi</th>
+                <th scope="col">Mezuniyet Derecesi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">T.C. İstanbul Gedik Üniversitesi</th>
+                <td>İktisadi, İdari ve Sosyal Bilimler Fakültesi</td>
+                <td>Uluslararası Ticaret ve Finans</td>
+                <td>2020</td>
+                <td>3,34/4,00</td>
+              </tr>
+              <tr>
+                <th scope="row">T.C. İstanbul Gedik Üniversitesi</th>
+                <td>Meslek Yüksek Okulu</td>
+                <td>Bankacılık ve Sigortacılık</td>
+                <td>2017</td>
+                <td>3,51/4,00</td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
+      </div>
+  
+  
+      <div class="table-responsive">
+        <figure class="m-4">    
+          <figcaption class="text-center m-2">İş Hayatım</figcaption>
+  
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Firma</th>
+                <th scope="col">Pozisyon</th>
+                <th scope="col">Başlangıç Tarihi</th>
+                <th scope="col">Ayrılma Tarihi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Trendyol Group & Trendyol Pazaryeri </th>
+                <td>Kendi İşim</td>
+                <td>Aralık 2021</td>
+                <td>Ocak 2023 </td>
+              </tr>
+              <tr>
+                <th scope="row">Çelik Ticaret ve Pazarlama</th>
+                <td>Pazarlama Ekip Sorumlusu</td>
+                <td>Eylül 2016</td>
+                <td>Aralık 2021</td>
+              </tr>
+              <tr>
+                <th scope="row">CN Grup Sigorta</th>
+                <td>Zorunlu Staj</td>
+                <td>Haziran 2016</td>
+                <td>Eylül 2016</td>
+              </tr>
+              <tr>
+                <th scope="row">Robert's Coffee</th>
+                <td>Salon Şefi</td>
+                <td>Şubat 2014</td>
+                <td>Haziran 2016</td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
+      </div>
+  
+  
+      <!-- contact -->
+      <div class="effect">
+        <h3 id="chapters">İletişim</h3>
+      </div>
+      
+  
+      <div class="m-4 mb-0" id="contact">
+        <a href="mailto:ogulcan.celik24@gmail.com" target="_blank"><img src="https://img.icons8.com/color/96/undefined/gmail-new.png" alt="ogulcanCelik" title="Send Mail" height="45" width="45" /></a>         
+        <a href="https://www.linkedin.com/in/cancelik24/" target="_blank"><img src="https://img.icons8.com/color/96/undefined/linkedin.png" alt="ogulcanCelik" title="Oğulcan ÇELİK's Linkedin Profile" height="45" width="45" /></a>
+        <a href="https://github.com/CanCelik24" target="_blank"><img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ogulcanCelik" title="Ogulcan CELIK's GitHub Profile" height="45" width="45" /></a>
+        <a href="https://twitter.com/Cnclk24" target="_blank"><img src="https://img.icons8.com/color/96/undefined/twitter-squared.png" alt="ogulcanCelik" title="Ogulcan CELIK's Twitter Profile" height="45" width="45" /></a>          
+        <a href="https://www.instagram.com/ogulcancelik.24/" target="_blank"><img  src="https://img.icons8.com/fluency/48/undefined/instagram-new.png" alt="ogulcanCelik" title="Ogulcan CELIK's Instagram Profile" height="45" width="45" /></a>
+  
+      </div>
+      <div class="effect">
+        <h3 id="chapters" class="mt-3">
+          <a id="connect-info" href="https://www.linkedin.com/in/cancelik24/" target="_blank">
+            İletişime geçmek veya projeleri incelemek için dilediğiniz platforma tıklayın.
+          </a>
+        </h3>
+      </div>
+      
+  
+  
+      <!-- Certificate -->
+  
+      
+      <div class="offcanvas offcanvas-start text-bg-dark" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="staticBackdropLabel">Sertifikalarım</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="table-responsive">
+            <figure class="m-4">    
+              <figcaption class="text-center m-2"></figcaption>
+      
+              <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">Konu</th>
+                    <th scope="col">Kurum</th>
+                    <th scope="col">Tarih</th>
+                  </tr>
+                </thead>
+                <tbody id="left-nav">
+                  <tr>
+                    <th scope="row">Web Programlama 401: JQuery</th>
+                    <td>Turkcell Geleceği Yazanlar</td>
+                    <td>2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">React 401</th>
+                    <td>Turkcell Geleceği Yazanlar</td>
+                    <td>2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Başlangıç Seviye Frontend Web Development Patikası</th>
+                    <td>Patika.dev</td>
+                    <td>2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Web Programlama 301: JavaScript</th>
+                    <td>Turkcell Geleceği Yazanlar</td>
+                    <td>2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Temel Ağ Teknolojileri</th>
+                    <td>BTK Akademi</td>
+                    <td>2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Web Programlama 201: HTML5 & CSS3</th>
+                    <td>Turkcell Geleceği Yazanlar</td>
+                    <td>2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">JAVA ile Programlamaya Giriş Temel Seviye</th>
+                    <td>BTK Akademi</td>
+                    <td>2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Kotlin ile Android Mobil Uygulama Geliştirme Temel Seviye</th>
+                    <td>BTK Akademi</td>
+                    <td>2022</td>
+                  </tr>
+                </tbody>
+              </table>
+            </figure>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+  
+      <!-- footer -->
+      <footer class="mt-4">
+        <div class="mt-2">
+          <a class="navbar-brand" href="#">Oğulcan ÇELİK</a>
+        </div>
+  
+        <div class="footer-nav m-4">
+            <a class="nav-link" href="#about"type="button" >Hakkımda</a>
+            <a class="nav-link" href="#projects"type="button">Projelerim</a>
+            <a class="nav-link" href="#education" type="button">Eğitim</a>
+            <a class="nav-link" href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Sertifikalarım</a>
+        </div>
+  
+       
+  
+        <p>Ziyaretçi Sayısı</p>
+        <div><script language="Javascript" src="http://sa.sayaclar.com/c/s4.php?a=bde9hk3&s=2a5"></script></div>
+  
+  
+      </footer>
+  
+      
+     <script src="./js/main.js"></script>
+  
+   
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+  
+  </div>
+</div>
+
+
+</body>
+</html>

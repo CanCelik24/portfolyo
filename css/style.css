@@ -1,0 +1,187 @@
+
+/* body */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+    font-weight: normal;
+}
+
+.navbar-brand {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 24px;
+}
+
+/* welcome text */
+#welcome {
+    text-align: center;
+}
+div#welcome {
+    position: absolute;
+    left: 30px;
+}
+
+/* accordion */
+
+.accordion {
+    --bs-accordion-active-bg: #2B3035;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(28, 46, 68, 0.575);
+  }
+
+/* underline for headers */
+
+div.effect {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+  
+h3#chapters {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+
+h3#chapters::before {
+    content: "";
+    position: absolute;
+    left: -20%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #21466bd7;
+    transition: width 0.25s ease-out;
+}
+
+h3#chapters:hover::before {
+    width: 140%;
+}
+
+
+/* contact */
+#contact {
+    align-items: center;
+    text-align: center;
+}
+
+#connect-info {
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+
+/* dropleft */
+#left-nav tr td {
+    text-align: center;
+}
+
+/* link underline */
+
+button>a {
+    text-decoration: none;
+}
+
+/* footer */
+footer {
+    background-color: #2B3035;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 4px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    text-decoration: none;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* image zoom */
+/* .imgfeat {
+    margin: 4px;
+    border-radius: 12px 24px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+
+.imgfeat {
+    margin: 4px;
+    border-radius: 12px 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.zoom {
+    transition: transform .3s; 
+    
+}
+  
+  .zoom:hover {
+    transform: scale(1.5); 
+    
+}
+
+
+/* loader */
+
+.loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #333 url('../img/1486.gif') no-repeat center center;
+}
+
+
+/* scrool bar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray; 
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2B3035; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3d5b79; 
+  }
+
+
+div.carousel-caption h5 {
+    color: #3d5b79;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 24px;
+    text-shadow: 2px 2px black;
+}
+
+div.carousel-caption p {
+    color: black;
+    text-shadow: 1px 1px #3d5b79;
+}
+
+button.accordion-button:hover {
+    background: #3d5b79;
+
+}
+
